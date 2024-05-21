@@ -35,7 +35,7 @@ type Props = {};
 let interval: any = null;
 let stopTimeout: any = null;
 
-const page = (props: Props) => {
+const HomePage = (props: Props) => {
   const webcamRef = useRef<WebCam>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [mirrored, setMirrored] = useState<boolean>(true);
@@ -409,7 +409,7 @@ const page = (props: Props) => {
   
 };
 
-export default page;
+export default HomePage;
 
 
 // this function resizes the canvas to the video feed size whatever 
