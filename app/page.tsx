@@ -389,8 +389,8 @@ const HomePage = (props: Props) => {
           <strong>Camera Feed Highlighting 🎨</strong>
           <p>
             Highlights persons in{" "}
-            <span style={{ color: "#FF0F0F" }}>green</span> and other objects in{" "}
-            <span style={{ color: "#00B612" }}>red</span>.
+            <span style={{ color: "#00B612" }}>green</span> and other objects in{" "}
+            <span style={{ color: "#FF0F0F" }}>red</span>.
           </p>
         </li>
         <Separator />
