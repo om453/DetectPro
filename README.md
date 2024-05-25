@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DetectPro
+
+DetectPro is an AI-powered object detection web application with Next.js, TailwindCSS, TensorFlow.js, TypeScript, and ShadCN-UI, specializing in real-time object detection through webcam feeds. It automatically records upon detecting persons or objects, features dark mode, mirror cam, screenshot, video recording, volume control, and an accessibility button for streamlined functionality. Ideal for professional, security, and personal applications, DetectPro combines cutting-edge AI for accurate analysis and comprehensive documentation, offering flexibility and efficiency in operational workflows
+
+## Key Features
+
+- **Real-time Object Detection:** Utilizes TensorFlow.js for on-the-fly object detection.
+- **Automatic Recording:** Detects a person via webcam and automatically starts recording with a notification sound.
+- **Manual Detection and Recording:** Allows users to manually detect objects.
+- **Dark Mode:** Toggle between light and dark themes for better accessibility and user experience.
+- **Mirror Cam:** Mirror the webcam feed.
+- **Screenshot:** Capture screenshots from the webcam feed manually by using screenshot button.
+- **Video Recording:** Manually start and stop video recording by using video capture button.
+- **Volume Control:** Adjust the volume for the notification sound.
+- **Accessibility feature :** When turned on, it automatically starts recording the first 30 seconds upon detecting a person with a notification sound for better accessibility.
+
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ensure you have the following installed on your system:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (version 14.x or later)
+- npm (version 6.x or later) or yarn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the repository:**
+   git clone https://github.com/yourusername/DetectPro.git
+   cd DetectPro
+2. Install dependencies: npm install
 
-## Learn More
+### Running the Application: 
+To start the development server, run: npm run dev
+- Open your browser and navigate to http://localhost:3000 to see the application in action.
 
-To learn more about Next.js, take a look at the following resources:
+### Building for Production
+To build the application for production, run: npm run build
+- This will create an optimized build in the .next directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+### Webcam Detection and Recording
+- When a person is detected via the webcam, the application will automatically start recording with a notification sound.
+- You can manually start and stop recording using the "Record" button.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Dark Mode
+- Toggle the dark mode button to switch between light and dark themes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Mirror Cam
+- Use the mirror cam button to mirror the webcam feed.
+
+### Screenshot
+- Capture screenshots from the webcam feed using the screenshot button.
+
+### Volume Control
+- Adjust the volume of the notification sound using the volume control button.
+
+### Accessibility Button
+- When turned on, the accessibility feature will automatically start recording the first 30 seconds upon detecting a person, accompanied by a notification sound for enhanced accessibility.
+- 
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TensorFlow.js](https://www.tensorflow.org/js)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ShadCN-UI](https://shadcn.dev/)
+
