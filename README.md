@@ -60,7 +60,25 @@ To build the application for production, run: npm run build
 
 ### Accessibility Button
 - When turned on, the accessibility feature will automatically start recording the first 30 seconds upon detecting a person, accompanied by a notification sound for enhanced accessibility.
-- 
+
+
+## Screenshots
+
+Here are some screenshots of DetectPro in action:
+
+![Screenshot 2024-05-26 192237](https://github.com/om453/DetectPro/assets/116504580/2ae597c8-e709-47ae-a638-783fde432e4c)
+
+
+![Screenshot 2024-05-26 194150](https://github.com/om453/DetectPro/assets/116504580/e656cf93-9d13-4b5f-bae6-a1235b80ffb4)
+
+
+## Video Overview
+
+Watch the video to see DetectPro in action:
+
+https://github.com/om453/DetectPro/assets/116504580/f56580d8-b0c9-4d8a-9da0-f95b462bc410
+
+
 ## Acknowledgements
 
 - [Next.js](https://nextjs.org/)
