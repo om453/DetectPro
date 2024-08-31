@@ -64,10 +64,7 @@ To build the application for production, run: npm run build
 
 ## Screenshots
 
-Here are some screenshots of DetectPro in action:
-
-![Screenshot 2024-05-26 192237](https://github.com/om453/DetectPro/assets/116504580/2ae597c8-e709-47ae-a638-783fde432e4c)
-
+screenshot of DetectPro in action:
 
 ![Screenshot 2024-05-26 194150](https://github.com/om453/DetectPro/assets/116504580/e656cf93-9d13-4b5f-bae6-a1235b80ffb4)
 
